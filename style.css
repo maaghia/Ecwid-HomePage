@@ -1,0 +1,106 @@
+
+body,html{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    height: 53px;
+    position: fixed;
+    top: 0;
+    gap: 60vw;
+    background-color: white;
+    
+}
+nav .logo svg{
+    width: 98px;
+    height: 30px;
+}
+header{
+    margin-bottom: 100px;
+}
+main{
+    text-align: center;
+}
+.selling-online, .sell-anywhere{
+    padding: 0px 40px;
+}
+.selling-online h2, .sell-anywhere h2{
+    font-size: 55px;
+    color: #333333;
+    padding: 0px 25px;
+    letter-spacing: 1px;
+}
+.selling-online p , .sell-anywhere p, .fb-insta p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+.selling-online button,.sell-anywhere button{
+    background-color: #fae053;
+    color: #000000;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px 50px;
+    border: 1.5px solid black;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+.selling-online label{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #797979;
+    font-size: 18px;
+}
+.main-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+    padding: 70px 40px;
+}
+.main-icons p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #797979;
+    font-size: 18px;
+}
+.main-icons .crowd{
+    position: relative;
+    top: 100px;
+}
+.sell-anywhere h2, .sell-anywhere p{
+    text-align: left;
+    padding-left: 0pc;
+}
+.sell-anywhere button{
+    background-color: #f1b280;
+    margin-bottom: 60px;
+    width: 300px;
+}
+.fb-insta{
+    text-align: left;
+    padding: 30px 40px;
+}
+.story{
+    background-color: #f1b280;
+    margin: 30px;
+    padding: 30px 50px;
+    text-align: left;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.story p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    line-height: 35px;
+}
+.story h6{
+    font-size: 20px;
+}
+.story .person{
+    display: flex;
+}
+.story .person img{
+    flex-shrink: 1;
+}
