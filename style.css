@@ -24,21 +24,23 @@ header{
 main{
     text-align: center;
 }
-.selling-online, .sell-anywhere{
+.selling-online, .sell-anywhere , .grow-faster, .manage-simply{
     padding: 0px 40px;
+    margin-top: 30px;
 }
-.selling-online h2, .sell-anywhere h2{
-    font-size: 55px;
+.selling-online h2, .sell-anywhere h2, .grow-faster h2, .manage-simply h2{
+    font-size: 45px;
     color: #333333;
     padding: 0px 25px;
     letter-spacing: 1px;
 }
-.selling-online p , .sell-anywhere p, .fb-insta p{
+.selling-online p , .sell-anywhere p, .fb-insta p, .grow-faster p, .manage-simply p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: #333333;
+    line-height: 38px;
 }
-.selling-online button,.sell-anywhere button{
+.selling-online button,.sell-anywhere button, .grow-faster button, .manage-simply button{
     background-color: #fae053;
     color: #000000;
     font-size: 20px;
@@ -68,16 +70,16 @@ main{
     position: relative;
     top: 100px;
 }
-.sell-anywhere h2, .sell-anywhere p{
+.sell-anywhere h2, .sell-anywhere p,.grow-faster h2, .grow-faster p, .manage-simply h2, .manage-simply p{
     text-align: left;
-    padding-left: 0pc;
+    padding-left: 0px;
 }
 .sell-anywhere button{
     background-color: #f1b280;
     margin-bottom: 60px;
     width: 300px;
 }
-.fb-insta{
+.fb-insta, .google, .fb,.payement, .shipping{
     text-align: left;
     padding: 30px 40px;
 }
@@ -96,11 +98,95 @@ main{
     line-height: 35px;
 }
 .story h6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
+    font-weight: 500;
 }
 .story .person{
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 .story .person img{
-    flex-shrink: 1;
+    width: 60px;
+    height: 60px;
+}
+
+.grow-faster button{
+    background-color: #68e5a2;
+    width: 360px;
+    border-radius: 30px;
+    margin: 30px 0;
+}
+.google h6, .fb h6{
+    font-size: 28px;
+    margin: 15px 0;
+}
+.google p, .fb p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    line-height: 35px;
+    margin: 0;
+}
+#Pamela-Strydom{
+    background-color: #68e5a2;
+}
+.manage-simply button{
+    width: 360px;
+    background-color: rgb(57,91,224);
+    color: white;
+    border-radius: 30px;
+    margin: 30px 0;
+}
+.payement h6, .shipping h6{
+    font-size: 28px;
+    margin: 15px 0;
+}
+.payement p, .shipping p, .around-world h2, .around-world p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    line-height: 35px;
+    margin: 0;
+}
+#Benjamin-Scott{
+    background-color: rgb(57,91,224);
+    color: white;
+}
+#Benjamin-Scott p{
+    color: white;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2fr, 1fr, 1fr);
+    gap: 20px;
+}
+.around-world{
+    grid-row: 1/2;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0px 26px;
+    padding: 20px 40px;
+    text-align: left;
+    
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    
+}
+.stats p{
+    font-size: 44px;
+    font-weight: 800;
+    color: black;
+}
+.stats span{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 50px;
 }
